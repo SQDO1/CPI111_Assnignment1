@@ -9,3 +9,11 @@ self.y = irandom_range(obj_wall.sprite_height
 
 
 audio_play_sound(sfx_explosion,10,0);
+
+if(score == 0 || score < 200){
+	
+score = 0;
+}
+else if(score > 0){
+	score = score - 200;
+}

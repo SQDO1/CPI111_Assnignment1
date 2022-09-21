@@ -9,3 +9,5 @@ self.y = irandom_range(obj_wall.sprite_height
 
 
 audio_play_sound(sfx_click,10,0);
+
+score = score + 100;

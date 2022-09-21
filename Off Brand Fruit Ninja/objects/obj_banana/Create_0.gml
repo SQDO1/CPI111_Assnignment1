@@ -5,3 +5,4 @@ self.hspeed = -irandom_range(10,15);
 //random vertical speed
 self.vspeed = -irandom_range(10,15);
 
+//self.image_angle = self.direction;
